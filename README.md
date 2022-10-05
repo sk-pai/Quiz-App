@@ -11,7 +11,7 @@ HTML, CSS, Javascript, XML
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/adithyanair2001/Quiz-App/commit/cde9ccb35a8406dc3c4cc94fc13ee267a359e803))
+![App Screenshot](https://github.com/adithyanair2001/Quiz-App/blob/main/Screenshot.png)
 
 
 ## Authors
