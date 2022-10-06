@@ -1,0 +1,22 @@
+body {
+   width: 20%;
+   height: 100px;
+   float: left; 
+   
+}
+li {
+    list-style-type: none;
+}
+
+#question {
+    font-size: larger;
+    text-align: center;
+}
+
+#submit {
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    font-size: larger;
+    color: white;
+}
