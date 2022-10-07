@@ -1,22 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+    box-sizing: border-box;
+}
+
 body {
-   width: 20%;
-   height: 100px;
-   float: left; 
-   
-}
-li {
-    list-style-type: none;
+    background-color: #2f3030;
+    /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%); */
+    font-family: 'Poppins', sans-serif;
+    display: list-item;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
 }
 
-#question {
-    font-size: larger;
+.header {
     text-align: center;
+    padding: 5px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
 }
 
-#submit {
+.quiz-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 800px;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.container {
+    margin: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container :hover {
+    box-sizing: border-box;
+    background-size: cover;
+    background-color: #e929dc;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    display: block;
     width: 100%;
-    height: 100px;
-    background-color: blueviolet;
-    font-size: larger;
-    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #732d91;
+}
+
+button:focus {
+    outline: none;
+    background-color: #5e3370;
 }
